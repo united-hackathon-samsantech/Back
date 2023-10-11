@@ -18,14 +18,21 @@ spring:
   lifecycle:
     timeout-per-shutdown-phase: 20s
 
-cloud:
-  aws:
-    s3:
-      bucket: ${bucket}
-    stack:
-      auto: false
-    region:
-      static: ap-northeast-2
-    credentials:
-      access_key: ${access_key}
-      secret_key: ${secret_key}
+translator:
+  papago:
+    url: ${url}
+    client_id: ${client_id}
+    client_secret: ${client_secret}
+    params: ${params}
+
+#cloud:
+#  aws:
+#    s3:
+#      bucket: ${bucket}
+#    stack:
+#      auto: false
+#    region:
+#      static: ap-northeast-2
+#    credentials:
+#      access_key: ${access_key}
+#      secret_key: ${secret_key}
