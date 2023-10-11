@@ -1,7 +1,7 @@
 package com.example.back.domain.photo.controller;
 
+import com.example.back.domain.photo.controller.dto.response.PhotoListResponse;
 import com.example.back.domain.photo.service.PhotoService;
-import com.example.backend.domain.photo.controller.dto.response.PhotoListResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
