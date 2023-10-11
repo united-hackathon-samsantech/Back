@@ -1,8 +1,8 @@
 package com.example.back.domain.photo.service;
 
+import com.example.back.domain.photo.controller.dto.response.PhotoListResponse;
 import com.example.back.domain.photo.entity.Photo;
 import com.example.back.domain.photo.entity.repository.PhotoRepository;
-import com.example.backend.domain.photo.controller.dto.response.PhotoListResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
